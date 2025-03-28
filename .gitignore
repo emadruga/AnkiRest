@@ -1,0 +1,4 @@
+*.db
+*.apkg
+/basket_venv/
+/.venv/

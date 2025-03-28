@@ -1,0 +1,325 @@
+{
+  "1607392330": {
+    "id": 1607392330,
+    "name": "OReilly Basic",
+    "type": 0,
+    "mod": 1612350681,
+    "usn": 0,
+    "sortf": 0,
+    "did": 1119424111,
+    "tmpls": [
+      {
+        "name": "Card 1",
+        "ord": 0,
+        "qfmt": "<p>\n{{Note}}\n</p>\n<hr id=answer>\n</br>\n</br>\n<div class=source>\n<a href=\"{{Book URL}}\"><div>{{Cover}}<br></div></a>\n<div class=source-info>\n<a href=\"{{Chapter URL}}\">{{Chapter}}</br></a>\n<a href=\"https://learning.oreilly.com/search/?query=author%3A{{Author}}\">{{Author}}</br></a>\n</div>\n</div>\n\n",
+        "afmt": "<p>\n{{Note}}\n</p>\n<hr id=answer>\n<p>\n{{Highlight}}\n</p>\n<div>\n{{Image}}\n</div>\n</br>\n</br>\n<div class=source>\n<a href=\"{{Book URL}}\"><div>{{Cover}}<br></div></a>\n<div class=source-info>\n<a href=\"{{Chapter URL}}\">{{Chapter}}</br></a>\n<a href=\"https://learning.oreilly.com/search/?query=author%3A{{Author}}\">{{Author}}</br></a>\n</div>\n</div>\n",
+        "bqfmt": "",
+        "bafmt": "",
+        "did": null,
+        "bfont": "",
+        "bsize": 0
+      }
+    ],
+    "flds": [
+      {
+        "name": "Note",
+        "ord": 0,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Highlight",
+        "ord": 1,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Title",
+        "ord": 2,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Author",
+        "ord": 3,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Chapter",
+        "ord": 4,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Book URL",
+        "ord": 5,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Chapter URL",
+        "ord": 6,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Cover",
+        "ord": 7,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Image",
+        "ord": 8,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      }
+    ],
+    "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n   }\n   .source {\n    font-family: arial;\n    font-size: 12px;\n    text-align: left;\n    color: black;\n    width: 80px;\n   }\n   \n   .source-info {\n    width: 300px;\n    word-wrap:break-word;\n   }\n   .cloze {\n    font-weight: bold;\n    color: blue;\n   }\n   pre {\n    background: #f4f4f4;\n    border: 1px solid #ddd;\n    border-left: 3px solid #f36d33;\n    color: #666;\n    page-break-inside: avoid;\n    font-family: monospace;\n    font-size: 15px;\n    line-height: 1.6;\n    margin-bottom: 1.6em;\n    max-width: 100%;\n    overflow: auto;\n    padding: 1em 1.5em;\n    display: block;\n    word-wrap: break-word;\n    text-align: left;\n}",
+    "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+    "latexPost": "\\end{document}",
+    "latexsvg": false,
+    "req": [
+      [
+        0,
+        "any",
+        [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ],
+    "vers": [],
+    "tags": []
+  },
+  "1607392331": {
+    "id": 1607392331,
+    "name": "OReilly Cloze",
+    "type": 1,
+    "mod": 1612350681,
+    "usn": 0,
+    "sortf": 0,
+    "did": 1119424111,
+    "tmpls": [
+      {
+        "name": "Cloze ",
+        "ord": 0,
+        "qfmt": "<p>\n{{cloze:Note}}\n</p>\n<hr id=answer>\n</br>\n</br>\n<div class=source>\n<a href=\"{{Book URL}}\"><div>{{Cover}}<br></div></a>\n<div class=source-info>\n<a href=\"{{Chapter URL}}\">{{Chapter}}</br></a>\n<a href=\"https://learning.oreilly.com/search/?query=author%3A{{Author}}\">{{Author}}</br></a>\n</div>\n</div>\n",
+        "afmt": "<p>\n{{cloze:Note}}\n</p>\n<hr id=answer>\n</br>\n{{Image}}\n</br>\n<div class=source>\n<a href=\"{{Book URL}}\"><div>{{Cover}}<br></div></a>\n<div class=source-info>\n<a href=\"{{Chapter URL}}\">{{Chapter}}</br></a>\n<a href=\"https://learning.oreilly.com/search/?query=author%3A{{Author}}\">{{Author}}</br></a>\n</div>\n</div>\n",
+        "bqfmt": "",
+        "bafmt": "",
+        "did": null,
+        "bfont": "",
+        "bsize": 0
+      }
+    ],
+    "flds": [
+      {
+        "name": "Note",
+        "ord": 0,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Highlight",
+        "ord": 1,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Title",
+        "ord": 2,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Author",
+        "ord": 3,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Chapter",
+        "ord": 4,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Book URL",
+        "ord": 5,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Chapter URL",
+        "ord": 6,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Cover",
+        "ord": 7,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      },
+      {
+        "name": "Image",
+        "ord": 8,
+        "sticky": false,
+        "rtl": false,
+        "font": "Liberation Sans",
+        "size": 20,
+        "description": "",
+        "media": []
+      }
+    ],
+    "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n   }\n   .source {\n    font-family: arial;\n    font-size: 12px;\n    text-align: left;\n    color: black;\n    width: 80px;\n   }\n   \n   .source-info {\n    width: 300px;\n    word-wrap:break-word;\n   }\n   .cloze {\n    font-weight: bold;\n    color: blue;\n   }\n   pre {\n    background: #f4f4f4;\n    border: 1px solid #ddd;\n    border-left: 3px solid #f36d33;\n    color: #666;\n    page-break-inside: avoid;\n    font-family: monospace;\n    font-size: 15px;\n    line-height: 1.6;\n    margin-bottom: 1.6em;\n    max-width: 100%;\n    overflow: auto;\n    padding: 1em 1.5em;\n    display: block;\n    word-wrap: break-word;\n}",
+    "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+    "latexPost": "\\end{document}",
+    "latexsvg": false,
+    "req": [
+      [
+        0,
+        "any",
+        [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ],
+    "tags": [],
+    "vers": []
+  },
+  "1666910389281": {
+    "id": 1666910389281,
+    "name": "Basic",
+    "type": 0,
+    "mod": 0,
+    "usn": 0,
+    "sortf": 0,
+    "did": null,
+    "tmpls": [
+      {
+        "name": "Card 1",
+        "ord": 0,
+        "qfmt": "{{Front}}",
+        "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+        "bqfmt": "",
+        "bafmt": "",
+        "did": null,
+        "bfont": "",
+        "bsize": 0
+      }
+    ],
+    "flds": [
+      {
+        "name": "Front",
+        "ord": 0,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20,
+        "description": ""
+      },
+      {
+        "name": "Back",
+        "ord": 1,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20,
+        "description": ""
+      }
+    ],
+    "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+    "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+    "latexPost": "\\end{document}",
+    "latexsvg": false,
+    "req": [
+      [
+        0,
+        "any",
+        [
+          0
+        ]
+      ]
+    ]
+  }
+}
