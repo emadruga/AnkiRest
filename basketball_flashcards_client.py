@@ -101,7 +101,7 @@ class BasketballFlashcardsClient:
                 for card in cards:
                     print(f"\nCard ID: {card['id']}")
                     print(f"Front: {card['front']}")
-                    print(f"Next Review: {card['next_review']}")
+                    print(f"Next Review: {card['due_date']}")
             else:
                 print("Failed to retrieve upcoming reviews.")
         except requests.RequestException as e:
