@@ -3,7 +3,7 @@ import json
 
 
 class BasketballFlashcardsClient:
-    def __init__(self, base_url='http://localhost:5000'):
+    def __init__(self, base_url='http://localhost:8000'):
         self.base_url = base_url
 
     def display_menu(self):
