@@ -65,7 +65,7 @@ pip install flask requests anki
 ```bash
 python basketball_flashcards_server.py
 ```
-- The server will start on `http://localhost:5000`
+- The server will start on `http://localhost:8000`
 - A SQLite database `basketball_flashcards.db` will be created automatically
 
 ### Running the Client
